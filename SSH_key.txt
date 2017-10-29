@@ -1,0 +1,14 @@
+# check ~/.ssh
+cd ~/.ssh
+ssh-keygen -t rsa -C "momicrazy@163.com"
+
+# have id_rsa id_rsa.pub in ~/.ssh
+ssh-add id_rsa
+ssh -T git@github.com
+
+# if when push still ask for usrname/psword
+# go to project/.git/config
+# switch url from:
+# url = https://username@github.com/username/projectname.git
+# to:
+# url = git@github.com:username/projectname.git
