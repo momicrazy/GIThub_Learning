@@ -1,0 +1,18 @@
+### Compare diff between staged zone & repository
+git diff --staged
+
+### Compare diff between untraced file and staged zone
+git diff
+
+### Commited file to staged zone by jumped the "git add ."
+git commit -a
+
+### Found the commit line have problem(before push)
+git commit --amend
+
+### Show log file for each changing 
+git log
+
+### Check each log file detail changing
+git log -p -[how many log be checked]
+

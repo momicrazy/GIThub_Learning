@@ -1,0 +1,9 @@
+### Check all git global configuration in this computer
+git config --list
+
+### Change /Add setting of global name
+git config --global user.name "[name]"
+
+### Change /Add setting of global email
+git config --global user.email "[email]"
+
